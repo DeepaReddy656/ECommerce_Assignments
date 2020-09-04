@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerce_BusinessLayer\ECommerce_BusinessLayer.csproj" />
+    <ProjectReference Include="..\ECommerce_DataAcessLayer\ECommerce_DataAcessLayer.csproj" />
+    <ProjectReference Include="..\ECommerce_Entities\ECommerce_Entities.csproj" />
+    <ProjectReference Include="..\ECommerce_Exceptions\ECommerce_Exceptions.csproj" />
+  </ItemGroup>
+
+</Project>

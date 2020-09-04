@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "ECommerce_DataAcessLayer/1.0.0": {
+        "dependencies": {
+          "ECommerce_Entities": "1.0.0",
+          "ECommerce_Exceptions": "1.0.0"
+        },
+        "runtime": {
+          "ECommerce_DataAcessLayer.dll": {}
+        }
+      },
+      "ECommerce_Entities/1.0.0": {
+        "runtime": {
+          "ECommerce_Entities.dll": {}
+        }
+      },
+      "ECommerce_Exceptions/1.0.0": {
+        "dependencies": {
+          "ECommerce_Entities": "1.0.0"
+        },
+        "runtime": {
+          "ECommerce_Exceptions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ECommerce_DataAcessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ECommerce_Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ECommerce_Exceptions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
